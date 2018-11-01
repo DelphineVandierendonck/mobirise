@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DelphineVandierendonck",
-    "currentPage": "works.html",
+    "currentPage": "erasmus.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1495,7 +1495,7 @@
     "erasmus.html": {
       "settings": {
         "meta_descr": "Site Creator Description",
-        "title": "Erasmus",
+        "title": "erasmus",
         "order": 5
       },
       "components": [
