@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DelphineVandierendonck",
-    "currentPage": "other.html",
+    "currentPage": "home2.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.6.7",
-    "uniqCompNum": 22,
+    "uniqCompNum": 23,
     "versionPublish": "4.6.7",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -680,9 +680,27 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 5
+        "order": 1
       },
       "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r8a2D9osRI",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-m"
+        },
         {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -814,7 +832,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "glass",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -897,7 +915,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "current project",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -980,7 +998,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "ceramics",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1442,7 +1460,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Erasmus",
-        "order": 4
+        "order": 5
       },
       "components": [
         {

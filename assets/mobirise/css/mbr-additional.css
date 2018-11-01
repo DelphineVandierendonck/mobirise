@@ -1635,6 +1635,15 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
+.cid-r8a2D9osRI {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-r8a2D9osRI .mbr-text,
+.cid-r8a2D9osRI blockquote {
+  color: #767676;
+}
 .cid-r89U6OLWjn {
   padding-top: 135px;
   padding-bottom: 135px;
