@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DelphineVandierendonck",
-    "currentPage": "home2.html",
+    "currentPage": "aboutme.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -30,7 +30,7 @@
       "additionalSetColors": []
     },
     "versionFirst": "4.6.7",
-    "uniqCompNum": 23,
+    "uniqCompNum": 33,
     "versionPublish": "4.6.7",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -117,7 +117,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "about me",
-        "order": 9
+        "order": 14
       },
       "components": [
         {
@@ -182,7 +182,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "contact",
-        "order": 8
+        "order": 13
       },
       "components": [
         {
@@ -233,7 +233,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "works",
-        "order": 10
+        "order": 15
       },
       "components": [
         {
@@ -845,7 +845,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Glass</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    <a href=\"home2.html\" class=\"text-black\">Glass</a></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r89ZDbg9CG",
           "_protectedParams": [],
           "_global": false,
@@ -901,7 +901,7 @@
             }
           },
           "_name": "features17",
-          "_customHTML": "<section class=\"features17\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Kaartachtergond\" name=\"crdBg\" checked>\n        <input type=\"color\" title=\"Kaartkleur\" name=\"crdColor\" value=\"#ffffff\" condition=\"crdBg\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><p>\n                            In Graden Celsius gekneed</p></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Les Fragiles</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/03.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            portraits</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/04.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            overall</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 4\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            the concept</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 5\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobiel-vriendelijk\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Alle sites die u met Mobirise maakt, zijn mobielvriendelijk. U hoeft geen speciale mobiele versie van uw site te maken.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features17\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Kaartachtergond\" name=\"crdBg\" checked>\n        <input type=\"color\" title=\"Kaartkleur\" name=\"crdColor\" value=\"#ffffff\" condition=\"crdBg\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><p>\n                            <a href=\"ingradencelsiusgekneed.html\" class=\"text-black\">In</a><a href=\"ingradencelsiusgekneed.html\"> </a><a href=\"ingradencelsiusgekneed.html\" class=\"text-black\">Graden</a> <a href=\"ingradencelsiusgekneed.html\" class=\"text-black\">Celsius</a> <a href=\"ingradencelsiusgekneed.html\" class=\"text-black\">gekneed</a></p></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><p>\n                            <a href=\"lesfragiles.html\"></a><a href=\"lesfragiles.html\" class=\"text-black\">Les</a> <a href=\"lesfragiles.html\" class=\"text-black\">Fragiles</a></p></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/03.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"portraitsglass.html\" class=\"text-black\">portraits</a>&nbsp;</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/04.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"overallglass.html\" class=\"text-black\">overall</a>&nbsp;</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 4\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            the concept</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 5\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobiel-vriendelijk\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Alle sites die u met Mobirise maakt, zijn mobielvriendelijk. U hoeft geen speciale mobiele versie van uw site te maken.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r89ZDbFPCb",
           "_protectedParams": [],
           "_global": false,
@@ -928,7 +928,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    het (zelf)portret</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    <a href=\"home2.html\" class=\"text-black\">het</a> (<a href=\"home2.html\" class=\"text-black\">zelf</a>)<a href=\"home2.html\" class=\"text-black\">portret</a></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r89X8BsaGs",
           "_protectedParams": [],
           "_global": false,
@@ -984,7 +984,7 @@
             }
           },
           "_name": "features17",
-          "_customHTML": "<section class=\"features17\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Kaartachtergond\" name=\"crdBg\" checked>\n        <input type=\"color\" title=\"Kaartkleur\" name=\"crdColor\" value=\"#ffffff\" condition=\"crdBg\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><p>\n                            drawings</p></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            the classical portraits</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/03.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            the experiments</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/04.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            overall</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 4\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            the concept</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 5\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobiel-vriendelijk\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Alle sites die u met Mobirise maakt, zijn mobielvriendelijk. U hoeft geen speciale mobiele versie van uw site te maken.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features17\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Kaartachtergond\" name=\"crdBg\" checked>\n        <input type=\"color\" title=\"Kaartkleur\" name=\"crdColor\" value=\"#ffffff\" condition=\"crdBg\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><p>\n                            drawings</p></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            the classical portraits</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/03.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            the experiments</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/04.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            overall</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 4\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            the concept</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 5\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobiel-vriendelijk\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Alle sites die u met Mobirise maakt, zijn mobielvriendelijk. U hoeft geen speciale mobiele versie van uw site te maken.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r89Y7Glety",
           "_protectedParams": [],
           "_global": false,
@@ -1011,7 +1011,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Ceramics</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><a href=\"home2.html\" class=\"text-black\">Ceramics</a></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r8a0h3G1ix",
           "_protectedParams": [],
           "_global": false,
@@ -1081,7 +1081,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Les fragiles",
-        "order": 7
+        "order": 12
       },
       "components": [
         {
@@ -1473,7 +1473,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Erasmus</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    <a href=\"home2.html\" class=\"text-black\">Erasmus</a></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r8a0IYm3Vy",
           "_protectedParams": [],
           "_global": false,
@@ -1543,7 +1543,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "other",
-        "order": 11
+        "order": 16
       },
       "components": [
         {
@@ -1601,6 +1601,1901 @@
           "_once": false,
           "_params": {},
           "_anchor": "features17-l"
+        }
+      ]
+    },
+    "portraitsglass.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "portraits glass",
+        "order": 8
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "r8a3qe8hqS",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-n"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "r8a3qeJWwr",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-o"
+        }
+      ]
+    },
+    "overallceramics.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "overall ceramics",
+        "order": 11
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "r8a3H3CazU",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-r"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "r8a3H47gp2",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-s"
+        }
+      ]
+    },
+    "overallglass.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "overall glass",
+        "order": 10
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "r8a3DcQysa",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-p"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "r8a3DdzJPr",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-q"
+        }
+      ]
+    },
+    "portraitsceramics.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "portraits ceramics",
+        "order": 9
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "r8a3MDmC81",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-t"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "r8a3MDWUJa",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-u"
+        }
+      ]
+    },
+    "ingradencelsiusgekneed.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "in graden celsius gekneed",
+        "order": 7
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "r8a4l4bElJ",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-v"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                },
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out"
+              }
+            }
+          },
+          "_name": "gallery3",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
+          "_cid": "r8a4l4GW8j",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery04.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Geweldige",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery05.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Sympathieke",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery06.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/gallery07.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery3-w"
         }
       ]
     }
