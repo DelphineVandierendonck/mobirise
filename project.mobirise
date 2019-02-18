@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DelphineVandierendonck",
-    "currentPage": "drawing.html",
+    "currentPage": "drawings.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -7756,7 +7756,7 @@
         }
       ]
     },
-    "drawing.html": {
+    "drawings.html": {
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "drawings",
