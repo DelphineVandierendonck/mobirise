@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DelphineVandierendonck",
-    "currentPage": "glass.html",
+    "currentPage": "other.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3185,18 +3185,6 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/naamloos-4.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/naamloos-4-800x1067.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": false
-              },
-              {
-                "tags": "Geweldige",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/naamloos-73.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/naamloos-73-800x929.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Onderschrift hier",
